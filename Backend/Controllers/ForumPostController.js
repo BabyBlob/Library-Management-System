@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const Url = '${import.meta.env.Url}/';
+const Url = '${import.meta.env.Url}';
 
 export const FetchBooks = async () => {
   try {

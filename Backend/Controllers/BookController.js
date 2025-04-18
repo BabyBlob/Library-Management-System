@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useSnackbar } from 'notistack';
 
-const Url = '${import.meta.env.Url}/';
+const Url = '${import.meta.env.Url}';
 
 export const addBook = async (bookData, enqueueSnackbar, navigate) => {
   try {
