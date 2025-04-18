@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const Url = 'http://localhost:5555/users';  
+const Url = '${import.meta.env.Url}//users';  
 
 export const loginUser = async (username, password) => {
   try {
